@@ -1,0 +1,5 @@
+#!/bin/sh
+
+gcc -O2 -o dm dm.c dsp.c -lm
+gcc -o mod mod.c dsp.c -lm
+gcc -o gen-dat gen-dat.c
